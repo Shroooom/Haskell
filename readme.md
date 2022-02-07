@@ -1,6 +1,6 @@
 # Haskell
 
---HW1 for ProgLang--
+--HW1 ProgLang--
 
 Haskell representation of lambda expression data Lexp = Atom String | Lambda String Lexp | Apply Lexp Lexp
 
