@@ -1,11 +1,9 @@
 Group members:
-Mason Sklar (sklarm2)
-James Hwang (hwangy4)
+Mason Sklar 
+James Hwang
 
-Features:
-Our Lambda Calculus interpreter reduces lambda calculus
-expressions in an applicative manner using alpha renaming,
-beta reduction, and eta reduction.
+--HW1 for ProgLang--
 
-Bugs:
-No known bugs.
+Haskell representation of lambda expression data Lexp = Atom String | Lambda String Lexp | Apply Lexp Lexp
+
+Given a filename and function for reducing lambda expressions, reduce all valid lambda expressions in the file with alpha, beta, and eta reductions applicatively and output results.
